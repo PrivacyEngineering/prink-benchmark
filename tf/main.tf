@@ -35,7 +35,8 @@ resource "aws_instance" "client" {
   sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
   sudo chmod +x /usr/local/bin/docker-compose
 
-  git clone https://github.com/louisloechel/PrinkBenchmarking.git /home/ec2-user/PrinkBenchmarking
+  # insert git link here
+  git clone https://github.com/.../PrinkBenchmarking.git /home/ec2-user/PrinkBenchmarking
   chown ec2-user:ec2-user /home/ec2-user/PrinkBenchmarking -R
 
 

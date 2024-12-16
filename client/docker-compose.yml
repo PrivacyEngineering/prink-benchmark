@@ -25,7 +25,7 @@ services:
 
 
         ## How to connect to the SUT
-        prink_docker_image: "ghcr.io/louisloechel/prink-v2:main"
+        prink_docker_image: "prink-v2:main"
 
         # Memory for the taskmanager
         taskmanager_memory: 2gb
